@@ -81,7 +81,7 @@ li {
   margin: 30px;
 }
 .left {
-  background:rgba(0,0,0,0) url('images/fashionb.png');  
+  background: url('images/fashionb.png');  
 }
 .center {
   background-image: url('images/wendybite.png');
