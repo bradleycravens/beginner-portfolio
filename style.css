@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 30px;
+  height: 1000px;
+  max-width: 80%;
+  margin: 100px auto;
+  background-image: url('images/stardust.png');
+  color: white;
+}
+.top {
+  width:100%;
+  text-align: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: -130px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid transparent;
+  transition: all .2s ease-in-out;
+  transform: scale(1);
+}
+.selected:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.2);
+}
+li {
+  list-style: none;
+  padding: 0 20px;
+  letter-spacing: 4px;
+  font-weight: lighter;
+  font-size: .75em;
+}
+.home:hover {
+  transition: all .2s ease-in-out;
+  transform: scale(1.5);
+}
+.home {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 5em;
+  transition: all .2s ease-in-out;
+  transform: scale(1);
+}
+.divContainer0 {
+  display:flex;
+  justify-content: center;
+  border: 1px solid rgb(225,225,225);
+  padding: 10px;
+  margin-top: 30px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  font-size: .75em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.divContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+.left, .right, .center {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 10em;
+  color: red;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 30px;
+  margin: 30px;
+}
+.left {
+  background:rgba(0,0,0,0) url('images/fashionb.png');  
+}
+.center {
+  background-image: url('images/wendybite.png');
+}
+.right {
+  background-image: url('images/solution.png');
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid white;
+  transition: all .2s ease-in-out;
+  transform: scale(1);
+}
+footer img {
+  padding: 15px 20px;
+  width: 30px;
+  height: 30px;
+}
